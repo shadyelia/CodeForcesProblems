@@ -1,0 +1,13 @@
+E:\work\CodeForces\A.Chat room\ChatRoom\bin\Debug\netcoreapp3.1\ChatRoom.exe
+E:\work\CodeForces\A.Chat room\ChatRoom\bin\Debug\netcoreapp3.1\ChatRoom.deps.json
+E:\work\CodeForces\A.Chat room\ChatRoom\bin\Debug\netcoreapp3.1\ChatRoom.runtimeconfig.json
+E:\work\CodeForces\A.Chat room\ChatRoom\bin\Debug\netcoreapp3.1\ChatRoom.runtimeconfig.dev.json
+E:\work\CodeForces\A.Chat room\ChatRoom\bin\Debug\netcoreapp3.1\ChatRoom.dll
+E:\work\CodeForces\A.Chat room\ChatRoom\bin\Debug\netcoreapp3.1\ChatRoom.pdb
+E:\work\CodeForces\A.Chat room\ChatRoom\obj\Debug\netcoreapp3.1\ChatRoom.csprojAssemblyReference.cache
+E:\work\CodeForces\A.Chat room\ChatRoom\obj\Debug\netcoreapp3.1\ChatRoom.AssemblyInfoInputs.cache
+E:\work\CodeForces\A.Chat room\ChatRoom\obj\Debug\netcoreapp3.1\ChatRoom.AssemblyInfo.cs
+E:\work\CodeForces\A.Chat room\ChatRoom\obj\Debug\netcoreapp3.1\ChatRoom.csproj.CoreCompileInputs.cache
+E:\work\CodeForces\A.Chat room\ChatRoom\obj\Debug\netcoreapp3.1\ChatRoom.dll
+E:\work\CodeForces\A.Chat room\ChatRoom\obj\Debug\netcoreapp3.1\ChatRoom.pdb
+E:\work\CodeForces\A.Chat room\ChatRoom\obj\Debug\netcoreapp3.1\ChatRoom.genruntimeconfig.cache
