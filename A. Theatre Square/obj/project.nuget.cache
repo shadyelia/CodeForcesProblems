@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "h5ppn9dLfcvUGCcvbrbMIL8VPzXVFXjhu/Z7EHl1wBZ3JeBvlRLIGZpr+U+V7Pfj6X8rkH9NMllp0OPaAK2O7w==",
+  "success": true,
+  "projectFilePath": "E:\\work\\CodeForces\\A. Theatre Square\\A. Theatre Square.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shady\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
