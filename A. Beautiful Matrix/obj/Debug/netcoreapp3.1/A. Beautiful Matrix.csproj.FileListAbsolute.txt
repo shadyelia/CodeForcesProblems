@@ -1,0 +1,13 @@
+E:\work\CodeForces\A. Beautiful Matrix\bin\Debug\netcoreapp3.1\A. Beautiful Matrix.exe
+E:\work\CodeForces\A. Beautiful Matrix\bin\Debug\netcoreapp3.1\A. Beautiful Matrix.deps.json
+E:\work\CodeForces\A. Beautiful Matrix\bin\Debug\netcoreapp3.1\A. Beautiful Matrix.runtimeconfig.json
+E:\work\CodeForces\A. Beautiful Matrix\bin\Debug\netcoreapp3.1\A. Beautiful Matrix.runtimeconfig.dev.json
+E:\work\CodeForces\A. Beautiful Matrix\bin\Debug\netcoreapp3.1\A. Beautiful Matrix.dll
+E:\work\CodeForces\A. Beautiful Matrix\bin\Debug\netcoreapp3.1\A. Beautiful Matrix.pdb
+E:\work\CodeForces\A. Beautiful Matrix\obj\Debug\netcoreapp3.1\A. Beautiful Matrix.csprojAssemblyReference.cache
+E:\work\CodeForces\A. Beautiful Matrix\obj\Debug\netcoreapp3.1\A. Beautiful Matrix.AssemblyInfoInputs.cache
+E:\work\CodeForces\A. Beautiful Matrix\obj\Debug\netcoreapp3.1\A. Beautiful Matrix.AssemblyInfo.cs
+E:\work\CodeForces\A. Beautiful Matrix\obj\Debug\netcoreapp3.1\A. Beautiful Matrix.csproj.CoreCompileInputs.cache
+E:\work\CodeForces\A. Beautiful Matrix\obj\Debug\netcoreapp3.1\A. Beautiful Matrix.dll
+E:\work\CodeForces\A. Beautiful Matrix\obj\Debug\netcoreapp3.1\A. Beautiful Matrix.pdb
+E:\work\CodeForces\A. Beautiful Matrix\obj\Debug\netcoreapp3.1\A. Beautiful Matrix.genruntimeconfig.cache

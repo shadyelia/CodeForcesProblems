@@ -1,0 +1,13 @@
+E:\work\CodeForces\A. Lucky Division\bin\Debug\netcoreapp3.1\A. Lucky Division.exe
+E:\work\CodeForces\A. Lucky Division\bin\Debug\netcoreapp3.1\A. Lucky Division.deps.json
+E:\work\CodeForces\A. Lucky Division\bin\Debug\netcoreapp3.1\A. Lucky Division.runtimeconfig.json
+E:\work\CodeForces\A. Lucky Division\bin\Debug\netcoreapp3.1\A. Lucky Division.runtimeconfig.dev.json
+E:\work\CodeForces\A. Lucky Division\bin\Debug\netcoreapp3.1\A. Lucky Division.dll
+E:\work\CodeForces\A. Lucky Division\bin\Debug\netcoreapp3.1\A. Lucky Division.pdb
+E:\work\CodeForces\A. Lucky Division\obj\Debug\netcoreapp3.1\A. Lucky Division.csprojAssemblyReference.cache
+E:\work\CodeForces\A. Lucky Division\obj\Debug\netcoreapp3.1\A. Lucky Division.AssemblyInfoInputs.cache
+E:\work\CodeForces\A. Lucky Division\obj\Debug\netcoreapp3.1\A. Lucky Division.AssemblyInfo.cs
+E:\work\CodeForces\A. Lucky Division\obj\Debug\netcoreapp3.1\A. Lucky Division.csproj.CoreCompileInputs.cache
+E:\work\CodeForces\A. Lucky Division\obj\Debug\netcoreapp3.1\A. Lucky Division.dll
+E:\work\CodeForces\A. Lucky Division\obj\Debug\netcoreapp3.1\A. Lucky Division.pdb
+E:\work\CodeForces\A. Lucky Division\obj\Debug\netcoreapp3.1\A. Lucky Division.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+E:\work\CodeForces\A. Bit++\bin\Debug\netcoreapp3.1\A. Bit++.exe
+E:\work\CodeForces\A. Bit++\bin\Debug\netcoreapp3.1\A. Bit++.deps.json
+E:\work\CodeForces\A. Bit++\bin\Debug\netcoreapp3.1\A. Bit++.runtimeconfig.json
+E:\work\CodeForces\A. Bit++\bin\Debug\netcoreapp3.1\A. Bit++.runtimeconfig.dev.json
+E:\work\CodeForces\A. Bit++\bin\Debug\netcoreapp3.1\A. Bit++.dll
+E:\work\CodeForces\A. Bit++\bin\Debug\netcoreapp3.1\A. Bit++.pdb
+E:\work\CodeForces\A. Bit++\obj\Debug\netcoreapp3.1\A. Bit++.csprojAssemblyReference.cache
+E:\work\CodeForces\A. Bit++\obj\Debug\netcoreapp3.1\A. Bit++.AssemblyInfoInputs.cache
+E:\work\CodeForces\A. Bit++\obj\Debug\netcoreapp3.1\A. Bit++.AssemblyInfo.cs
+E:\work\CodeForces\A. Bit++\obj\Debug\netcoreapp3.1\A. Bit++.csproj.CoreCompileInputs.cache
+E:\work\CodeForces\A. Bit++\obj\Debug\netcoreapp3.1\A. Bit++.dll
+E:\work\CodeForces\A. Bit++\obj\Debug\netcoreapp3.1\A. Bit++.pdb
+E:\work\CodeForces\A. Bit++\obj\Debug\netcoreapp3.1\A. Bit++.genruntimeconfig.cache
