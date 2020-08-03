@@ -6,7 +6,7 @@ namespace B._Taxi
 {
     class Program
     {
-        static void Main()
+        static void Main2()
         {
             Console.ReadLine();
             List<uint> numbers = Console.ReadLine().Split(' ').Select(uint.Parse).ToList();
