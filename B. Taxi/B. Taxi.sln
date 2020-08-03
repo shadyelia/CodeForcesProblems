@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxi", "Taxi.csproj", "{293CF9BA-D6A0-4F39-AD82-03B22C2DD63F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Taxi", "B. Taxi.csproj", "{1C86553E-0E4B-4D01-BF34-6433F99C310B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{293CF9BA-D6A0-4F39-AD82-03B22C2DD63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{293CF9BA-D6A0-4F39-AD82-03B22C2DD63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{293CF9BA-D6A0-4F39-AD82-03B22C2DD63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{293CF9BA-D6A0-4F39-AD82-03B22C2DD63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C86553E-0E4B-4D01-BF34-6433F99C310B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C86553E-0E4B-4D01-BF34-6433F99C310B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C86553E-0E4B-4D01-BF34-6433F99C310B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C86553E-0E4B-4D01-BF34-6433F99C310B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {91002712-C8BA-4B77-B3BE-84D7B1D8A705}
+		SolutionGuid = {2D2D2B8D-7511-40AE-AF52-F1A74E513F09}
 	EndGlobalSection
 EndGlobal
