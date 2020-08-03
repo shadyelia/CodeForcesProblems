@@ -6,106 +6,86 @@ namespace B._Taxi
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            string line = Console.ReadLine();
-            List<string> data = Console.ReadLine().Split(' ').ToList();
-            List<int> numbers = data.Select(int.Parse).ToList();
-            long counter = 0;
+            Console.ReadLine();
+            List<uint> numbers = Console.ReadLine().Split(' ').Select(uint.Parse).ToList();
+            uint counter = 0;
 
             numbers = numbers.OrderByDescending(i => i).ToList();
 
-            for (int i = 0; i < numbers.Count; i++)
+            while(numbers.Count>0)   
             {
-                if (numbers[i] == 3)
+                int length = numbers.Count;
+
+                if (length > 0 && numbers.First() == 4)
                 {
-                    if (numbers[numbers.Count-1] == 1)
+                    numbers.RemoveAt(0);
+                    counter++;
+                    length--;
+                }
+
+                if (length > 0 && numbers.First() == 3)
+                {
+                    numbers.RemoveAt(0);
+                    counter++;
+                    length--;
+                    if (length > 0 && numbers.Last() == 1)
                     {
-                        numbers.RemoveAt(numbers.Count-1);
+                        numbers.RemoveAt(numbers.Count - 1);
+                        length--;
                     }
                 }
 
-                else if (numbers[i] == 2)
+                if (length > 0 && numbers.First() == 2)
                 {
-                    int index = -1;
-                    for (int j = 0; j < numbers.Count; j++)
+                    numbers.RemoveAt(0);
+                    counter++;
+                    length--;
+                    if (length > 0 && numbers.First() == 2)
                     {
-                        if (numbers[j] == 2 && j != i)
-                        {
-                            index = j; break;
-                        }
-                    }
-                    if (index != -1)
-                    {
-                        numbers.RemoveAt(index);
+                        numbers.RemoveAt(0);
+                        length--;
                     }
                     else
-                    {
-                        int index1 = -1;
-                        int index2 = -1;
-                        for (int j = 0; j < numbers.Count; j++)
+                    {          
+                        if (length > 0 && numbers.Last() == 1)
                         {
-                            if (numbers[j] == 1 && index1 == -1)
-                            {
-                                index1 = j;
-                            }
-                            else if (numbers[j] == 1 && index2 == -1)
-                            {
-                                index2 = j;
-                                break;
-                            }
+                            numbers.RemoveAt(numbers.Count - 1);
+                            length--;
                         }
-
-                        if (index1 != -1)
+                        if (length > 0 && numbers.Last() == 1)
                         {
-                            numbers.RemoveAt(index1);
-                        }
-                        if (index2 != -1)
-                        {
-                            numbers.RemoveAt(index2 - 1);
+                            numbers.RemoveAt(numbers.Count - 1);
+                            length--;
                         }
                     }
                 }
 
-                else if (numbers[i] == 1)
+                if (length > 0 && numbers.First() == 1)
                 {
-                    int index1 = -1;
-                    int index2 = -1;
-                    int index3 = -1;
-                    for (int j = 0; j < numbers.Count; j++)
+                    numbers.RemoveAt(0);
+                    counter++;
+                    length--;
+
+                    if (length > 0 && numbers.Last()==1)
                     {
-                        if (numbers[j] == 1 && index1 == -1 && j != i)
-                        {
-                            index1 = j;
-                        }
-                        else if (numbers[j] == 1 && index2 == -1 && j != i)
-                        {
-                            index2 = j;
-                        }
-                        else if (numbers[j] == 1 && index3 == -1 && j != i)
-                        {
-                            index3 = j;
-                            break;
-                        }
+                        numbers.RemoveAt(numbers.Count - 1);
+                        length--;
                     }
-                    if (index1 != -1)
+                    if (length > 0 && numbers.Last() == 1)
                     {
-                        numbers.RemoveAt(index1);
+                        numbers.RemoveAt(numbers.Count - 1);
+                        length--;
                     }
-                    if (index2 != -1)
+                    if (length > 0 && numbers.Last() == 1)
                     {
-                        numbers.RemoveAt(index2 - 1);
-                    }
-                    if (index3 != -1)
-                    {
-                        numbers.RemoveAt(index3 - 2);
+                        numbers.RemoveAt(numbers.Count - 1);
+                        length--;
                     }
 
-                }
-
-                numbers.RemoveAt(i);
-                counter++;
-                i--;
+                }               
+               
             }
 
             Console.WriteLine(counter);
