@@ -12,8 +12,9 @@ namespace B._Taxi
             List<uint> numbers = Console.ReadLine().Split(' ').Select(uint.Parse).ToList();
             uint counter = 0;
 
-
-            while (numbers.Count > 0)
+            if (numbers.All(n => n == 3 || n == 4)) counter = (uint)numbers.Count;
+            else
+             while (numbers.Count > 0)
             {
                 int length = numbers.Count;
 
@@ -116,7 +117,6 @@ namespace B._Taxi
 
                     if (length > 0)
                     {
-                        //1 + 3
                         int indexNumber3 = -1;
                         int indexNumber2 = -1;
 
