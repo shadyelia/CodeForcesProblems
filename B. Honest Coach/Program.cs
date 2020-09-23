@@ -10,15 +10,20 @@ namespace B._Honest_Coach
             int t = Convert.ToInt32(Console.ReadLine());
             while (t-- > 0)
             {
-                Console.ReadLine();
+                var length = Convert.ToInt32(Console.ReadLine());
                 var numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
-                numbers.Sort();
-                int min = numbers[1] - numbers[0];
-                for(int i = 1; i < numbers.Count() - 1; i++)
+
+                int numbersOfWrongOdds = 0, numbersOfWrongEvens = 0;
+
+                for(int i = 0; i < length; i += 2)
                 {
-                    if ((numbers[i + 1] - numbers[i]) < min) min = numbers[i + 1] - numbers[i];
+                    if (numbers[i] % 2 != 0) numbersOfWrongEvens++;
+                    if (i + 1 < length && numbers[i + 1] % 2 == 0) numbersOfWrongOdds++;
                 }
-                Console.WriteLine(min);
+
+                if (numbersOfWrongEvens == numbersOfWrongOdds) Console.WriteLine(numbersOfWrongEvens);
+                else Console.WriteLine(-1);
+
             }
         }
     }
