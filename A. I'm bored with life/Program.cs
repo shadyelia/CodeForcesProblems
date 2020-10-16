@@ -4,7 +4,7 @@ namespace A._I_m_bored_with_life
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string[] data = Console.ReadLine().Split(' ');
             long num1 = Convert.ToInt64(data[0]);
